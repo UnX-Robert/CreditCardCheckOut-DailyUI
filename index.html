@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <title>Credit Card Check Out</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <h2 class="big-heading">Credit Card Checkout</h2>
+
+    <div class="row">
+      <div class="col-lg-6 column">
+        <div class="form-group">
+          <label for="name" class="label-text">Name on the card</label>
+          <input type="text" name="name" placeholder="Name" id="name" size="15">
+        </div>
+        <div class="form-group">
+          <label for="CardNumber" class="label-text">Card Number</label>
+        <input type="text" name="card-num" id="card-num" placeholder="0000 0000 0000 0000" size="18" minlength="19" maxlength="19">
+        </div>
+        <div class="form-group">
+          <label for="ExpDate" class="label-text">Expiration date</label>
+          <input type="text" name="exp" id="exp" placeholder="MM/YY" size="6" id="exp" minlength="5" maxlength="5">
+        </div>
+        <div class="form-group">
+          <label for="Cvc" class="label-text">Expiration date</label>
+          <input type="password" name="cvv" id="cvv" placeholder="000" size="1" minlength="3" maxlength="3">
+        </div>
+        <div class="form-check" class="label-text">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+            Save my card for future payment
+          </label>
+        </div>
+      </div>
+      <div class="col-lg-6 column">
+        <div class="">
+          <p class="label-text">Order number</p>
+          <p class="description-number">123233234</p>
+        </div>
+        <div class="">
+          <p class="label-text">Payment amount</p>
+          <p class="description-price">$59.49</p>
+        </div>
+        <button class="btn" type="button" name="button">Pay</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,85 @@
+body {
+  color: grey;
+  text-align: left;
+  background-color: #79B4B7;
+}
+
+button:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0
+}
+
+input {
+    padding: 2px 0px;
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 2px;
+    box-sizing: border-box;
+    color: #000;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 500
+}
+
+/* Headings */
+.big-heading {
+  color: black;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.label-text {
+  font-size: 0.9em;
+  font-family: sans-serif;
+}
+
+/* Containers */
+.container-fluid {
+  background-color: white;
+  border: 1px solid;
+  border-radius: 7%;
+  width: 60%;
+  margin: 4% auto;
+  padding: 2% 2%;
+}
+
+
+.column {
+  padding-right: 8%;
+}
+
+/* Description */
+.description-number {
+  color: black;
+  font-size: 1.2rem;
+}
+
+.description-price {
+  color: #FF3F00;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+
+/* Buttons */
+.btn {
+    background-color: #EF5350;
+    color: #fff;
+    padding: 8px 25px;
+    border-radius: 50px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    border: 2px solid #fff
+}
+
+.btn:hover {
+    box-shadow: 0 0 0 2px #EF5350
+}
+
+.btn:focus {
+    box-shadow: 0 0 0 2px #EF5350 !important
+}
